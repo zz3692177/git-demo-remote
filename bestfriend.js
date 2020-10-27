@@ -4,8 +4,7 @@ const dataPanel = document.querySelector("#data-panel")
 let users = JSON.parse(localStorage.getItem('bestFriend'));
 let filteredName = [];
 
-
-
+//test diff
 function renderUserList(data) {
   let rawHTML = ''; //style 為了讓圖片置中
   data.forEach((item) => {
